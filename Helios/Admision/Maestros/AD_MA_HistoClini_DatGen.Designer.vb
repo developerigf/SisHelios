@@ -120,6 +120,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.Tool_Salir = New System.Windows.Forms.ToolStripButton()
         Me.utc_historia = New Infragistics.Win.UltraWinTabControl.UltraTabControl()
         Me.UltraTabSharedControlsPage1 = New Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage()
+        Me.Ds_Reportes_Conta1 = New LR.Ds_Reportes_Conta()
         Me.UltraTabPageControl1.SuspendLayout()
         CType(Me.ug_Lista_Hist_Clin, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.uds_ListaHC, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -151,6 +152,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.ToolS_Mantenimiento.SuspendLayout()
         CType(Me.utc_historia, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.utc_historia.SuspendLayout()
+        CType(Me.Ds_Reportes_Conta1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'UltraTabPageControl1
@@ -303,8 +305,8 @@ Partial Class AD_MA_HistoClini_DatGen
         'upb_img
         '
         Me.upb_img.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.upb_img.BorderShadowColor = System.Drawing.Color.Empty
         Me.upb_img.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid
         Me.upb_img.Image = CType(resources.GetObject("upb_img.Image"), Object)
@@ -679,7 +681,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.Tool_Nuevo.Image = Global.Contabilidad.My.Resources.Resources._16__File_new_2_
         Me.Tool_Nuevo.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.Tool_Nuevo.Name = "Tool_Nuevo"
-        Me.Tool_Nuevo.Size = New System.Drawing.Size(62, 22)
+        Me.Tool_Nuevo.Size = New System.Drawing.Size(58, 22)
         Me.Tool_Nuevo.Text = "Nuevo"
         '
         'ToolStripSeparator1
@@ -692,7 +694,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.Tool_Grabar.Image = Global.Contabilidad.My.Resources.Resources._003
         Me.Tool_Grabar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.Tool_Grabar.Name = "Tool_Grabar"
-        Me.Tool_Grabar.Size = New System.Drawing.Size(62, 22)
+        Me.Tool_Grabar.Size = New System.Drawing.Size(60, 22)
         Me.Tool_Grabar.Text = "Grabar"
         '
         'ToolStripSeparator3
@@ -705,7 +707,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.Tool_Editar.Image = Global.Contabilidad.My.Resources.Resources._16__Card_edit_
         Me.Tool_Editar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.Tool_Editar.Name = "Tool_Editar"
-        Me.Tool_Editar.Size = New System.Drawing.Size(57, 22)
+        Me.Tool_Editar.Size = New System.Drawing.Size(55, 22)
         Me.Tool_Editar.Text = "Editar"
         '
         'ToolStripSeparator4
@@ -718,7 +720,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.Tool_Cancelar.Image = Global.Contabilidad.My.Resources.Resources._16__Cancel_
         Me.Tool_Cancelar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.Tool_Cancelar.Name = "Tool_Cancelar"
-        Me.Tool_Cancelar.Size = New System.Drawing.Size(73, 22)
+        Me.Tool_Cancelar.Size = New System.Drawing.Size(69, 22)
         Me.Tool_Cancelar.Text = "Cancelar"
         '
         'ToolStripSeparator2
@@ -731,7 +733,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.Tool_Eliminar.Image = Global.Contabilidad.My.Resources.Resources._16__Delete_
         Me.Tool_Eliminar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.Tool_Eliminar.Name = "Tool_Eliminar"
-        Me.Tool_Eliminar.Size = New System.Drawing.Size(70, 22)
+        Me.Tool_Eliminar.Size = New System.Drawing.Size(63, 22)
         Me.Tool_Eliminar.Text = "Eliminar"
         '
         'ToolStripSeparator5
@@ -744,7 +746,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.Tool_Salir.Image = Global.Contabilidad.My.Resources.Resources._28
         Me.Tool_Salir.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.Tool_Salir.Name = "Tool_Salir"
-        Me.Tool_Salir.Size = New System.Drawing.Size(49, 22)
+        Me.Tool_Salir.Size = New System.Drawing.Size(47, 22)
         Me.Tool_Salir.Text = "Salir"
         '
         'utc_historia
@@ -768,6 +770,11 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.UltraTabSharedControlsPage1.Location = New System.Drawing.Point(-10000, -10000)
         Me.UltraTabSharedControlsPage1.Name = "UltraTabSharedControlsPage1"
         Me.UltraTabSharedControlsPage1.Size = New System.Drawing.Size(828, 331)
+        '
+        'Ds_Reportes_Conta1
+        '
+        Me.Ds_Reportes_Conta1.DataSetName = "Ds_Reportes_Conta"
+        Me.Ds_Reportes_Conta1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'AD_MA_HistoClini_DatGen
         '
@@ -815,6 +822,7 @@ Partial Class AD_MA_HistoClini_DatGen
         Me.ToolS_Mantenimiento.PerformLayout()
         CType(Me.utc_historia, System.ComponentModel.ISupportInitialize).EndInit()
         Me.utc_historia.ResumeLayout(False)
+        CType(Me.Ds_Reportes_Conta1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -876,4 +884,5 @@ Partial Class AD_MA_HistoClini_DatGen
     Friend WithEvents uce_Nacionalidad As Infragistics.Win.UltraWinEditors.UltraComboEditor
     Friend WithEvents ugb_datos As Infragistics.Win.Misc.UltraGroupBox
     Friend WithEvents ugb_codigos As Infragistics.Win.Misc.UltraGroupBox
+    Friend WithEvents Ds_Reportes_Conta1 As LR.Ds_Reportes_Conta
 End Class

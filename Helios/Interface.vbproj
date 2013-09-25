@@ -22,7 +22,7 @@
     <ManifestCertificateThumbprint>1CB62EC4FBB538C250EE40C99F9F83B78501753D</ManifestCertificateThumbprint>
     <ManifestKeyFile>Interface_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -44,10 +44,14 @@
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <BootstrapperComponentsUrl>D:\_KARLOS\Fuentes\CONTABILIDAD12\Sistema Gestion\Setup1_Igf_Conta\Debug</BootstrapperComponentsUrl>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2599,7 +2603,6 @@
     <None Include="Resources\rss.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Interface_TemporaryKey.pfx" />
     <None Include="Resources\css.png" />
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@
         Call MostrarTabs(0, utc_historia, 0)
         Call Cargar_Combos()
         Call CargarDatos()
-
+        'prueba realizada desde la pc de  Jhon
     End Sub
 
     Private Sub Tool_Nuevo_Click(sender As System.Object, e As System.EventArgs) Handles Tool_Nuevo.Click
