@@ -12,27 +12,6 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LR", "LR\LR.vbproj", "{355671BC-478F-4DF5-8A32-BF3229C1527C}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://clinicaigf.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BE\\BE.vbproj
-		SccProjectName1 = BE
-		SccLocalPath1 = BE
-		SccProjectUniqueName2 = BL\\BL.vbproj
-		SccProjectName2 = BL
-		SccLocalPath2 = BL
-		SccProjectUniqueName3 = DA\\DA.vbproj
-		SccProjectName3 = DA
-		SccLocalPath3 = DA
-		SccProjectUniqueName4 = Helios\\Interface.vbproj
-		SccProjectName4 = Helios
-		SccLocalPath4 = Helios
-		SccProjectUniqueName5 = LR\\LR.vbproj
-		SccProjectName5 = LR
-		SccLocalPath5 = LR
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
